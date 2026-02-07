@@ -43,7 +43,7 @@ apispec==6.8.4 - for OpenAPI specification generation
 marshmallow==4.0.1 - for schema serialization
 packaging==25.0 - dependency for apispec
 PyYAML==6.0.2 - for YAML format support
-TASK 2: Setup API Documentation Spec
+TASK 2: Set up API Documentation Spec
 Assigned to: Documentation Lead
 
 In api.py, create an APISpec instance with:
@@ -56,7 +56,7 @@ Servers: [{"url": "http://localhost:8888"}]
 Include MarshmallowPlugin for schema handling
 Success Criteria: APISpec object is properly initialized
 
-TASK 3: Create User Authentication System
+TASK 3: Create a User Authentication System
 Assigned to: Security Lead
 
 Create a USERS dictionary with these test accounts:
@@ -74,9 +74,9 @@ Assigned to: Security Lead + Backend Developer
 Complete the _authenticate(self) method:
 
 Extract the Authorization header
-Verify it starts with "Basic "
+Verify it starts with "Basic."
 Decode the base64 credentials
-Split on : to get username/password
+Split on: to get username/password
 Validate against the USERS dictionary
 Return user info dict or None
 Handle exceptions properly
@@ -109,9 +109,9 @@ Assigned to: Backend Developer
 
 In the do_GET() method:
 
-Check if endpoint requires authentication
+Check if the endpoint requires authentication
 If yes, authenticate the user
-If authentication fails, send 401 response
+If authentication fails, send a 401 response
 Success Criteria: Protected endpoints require valid credentials
 
 TASK 8: Add Documentation Endpoints
