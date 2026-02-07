@@ -21,7 +21,6 @@ Run the server:
 python api.py
 Test the API at http://localhost:8888
 Tasks Overview
-
 ### Phase 1: Foundation Setup
 Tasks 1-3: Project Dependencies and Documentation Setup
 
@@ -31,10 +30,10 @@ Tasks 4-7: Implement Basic HTTP Authentication
 ### Phase 3: API Documentation
 Tasks 8-9: Add OpenAPI/Swagger Documentation
 
-Phase 4: New Resource Implementation
+### Phase 4: New Resource Implementation
 Tasks 10-12: Create Passengers Resource
 
-Detailed Task Instructions
+### Detailed Task Instructions
 TASK 1: Install Required Dependencies
 Assigned to: Entire group (setup meeting)
 
@@ -49,7 +48,7 @@ Assigned to: Documentation Lead
 
 In api.py, create an APISpec instance with:
 
-Title: "Moto Taxi API"
+### Title: "Moto Taxi API"
 Version: "1.0.0"
 OpenAPI version: "3.0.2"
 Description: "API for managing Moto Taxi riders, passengers, and rides"
