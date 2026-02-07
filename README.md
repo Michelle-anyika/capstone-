@@ -21,13 +21,14 @@ Run the server:
 python api.py
 Test the API at http://localhost:8888
 Tasks Overview
-Phase 1: Foundation Setup
+
+### Phase 1: Foundation Setup
 Tasks 1-3: Project Dependencies and Documentation Setup
 
-Phase 2: Authentication System
+### Phase 2: Authentication System
 Tasks 4-7: Implement Basic HTTP Authentication
 
-Phase 3: API Documentation
+### Phase 3: API Documentation
 Tasks 8-9: Add OpenAPI/Swagger Documentation
 
 Phase 4: New Resource Implementation
